@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>learn_csharp</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Basics\" />
+    <None Remove="WebDriver\" />
+    <None Remove="Browsers\" />
+    <None Remove="ExtentsionMethods\" />
+    <None Remove="Linq\" />
+    <None Remove="Delegate\" />
+    <None Remove="Inheritence\" />
+    <None Remove="Interface\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Collection\" />
+    <None Remove="Generics\" />
+    <None Remove="PartialClass\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Basics\" />
+    <Folder Include="WebDriver\" />
+    <Folder Include="Browsers\" />
+    <Folder Include="ExtentsionMethods\" />
+    <Folder Include="Linq\" />
+    <Folder Include="Delegate\" />
+    <Folder Include="Inheritence\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Collection\" />
+    <Folder Include="Generics\" />
+    <Folder Include="PartialClass\" />
+  </ItemGroup>
+</Project>
